@@ -1,23 +1,19 @@
 import './App.css';
+import { Hero } from './component-folder/Hero';
+import Body from './component-folder/Body';
+import { Filler } from './component-folder/Filler';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link underline"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Hero/>
+      <Body />
+      <Filler />
     </div>
   );
 }
 
 export default App;
+
+
+
