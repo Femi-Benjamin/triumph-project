@@ -1,15 +1,17 @@
-import './App.css';
-import { Hero } from './component-folder/Hero';
-import Body from './component-folder/Body';
-import { Filler } from './component-folder/Filler';
+import React from 'react';
+import Hero from './components/Hero';
+import Body from './components/Body';
+import Filler from './components/Filler';
 
 function App() {
   return (
-    <div>
-      <Hero/>
-      <Body />
-      <Filler />
-    </div>
+    <React.Fragment>
+      <div>
+        <Hero />
+        <Body />
+        <Filler />
+      </div>
+    </React.Fragment>
   );
 }
 
